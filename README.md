@@ -4,6 +4,11 @@ A static site generator built in Python. It converts Markdown content into stati
 
 This is the starter code used in Boot.dev's [Build a Static Site Generator in Python](https://www.boot.dev/courses/build-static-site-generator-python) course.
 
+## Live Demo
+
+Check out the live site here:
+https://gircysromualdas.github.io/static-site-generator/
+
 ## Requirements
 
 - Python 3
