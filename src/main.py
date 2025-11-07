@@ -1,7 +1,9 @@
-from copy_directory import transfer_content
-from generate_content import generate_pages_recursive
 import os
 import sys
+
+from copy_directory import transfer_content
+from generate_content import generate_pages_recursive
+
 
 def main():
     try:
@@ -20,8 +22,11 @@ def main():
     template_path = os.path.join(project_root_path, "template.html")
     destination_dir_path = os.path.join(project_root_path, "docs")
     print("\nStart generating pages\n")
-    generate_pages_recursive(from_dir_path, template_path, destination_dir_path, basepath)
+    generate_pages_recursive(
+        from_dir_path, template_path, destination_dir_path, basepath
+    )
     print("\nEnd generating pages\n")
+
 
 if __name__ == "__main__":
     main()
