@@ -15,7 +15,7 @@ https://gircysromualdas.github.io/static-site-generator/
 
 ## Installation
 
-1. Clone the repository
+1. Clone the repository.
 
 ## Usage
 
